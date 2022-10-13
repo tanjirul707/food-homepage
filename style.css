@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.head-area {
+    width: 1150px;
+    margin: auto;
+}
+
+header {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.353),rgba(0, 0, 0, 0.203)) ,url(im-2.jpeg);
+    height: 100vh;
+
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.manu {
+    float: right;
+    list-style: none;
+    margin-top: 5px;
+}
+
+.manu li {
+
+    display: inline-block;
+}
+
+.manu li a {
+
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+    font-family: sans-serif;
+   padding-top: 5px;
+   padding-right: 25px;
+s;
+
+
+}
+
+
+.manu li a:hover {
+    background-color: #fff;
+    color: #333;
+ transition: 3s;
+    text-align: center;
+}
+
+.logo {
+
+    float: right;
+
+}
+.logo img{
+
+}
+
+
+
+
+.welcome-text {
+
+
+    position: absolute;
+    text-align: center;
+    width: 1000px;
+    height: 200px;
+    margin: 20% 10%;
+
+
+}
+
+.welcome-text h1 {
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+
+
+}
+
+.welcome-text h2 {
+
+
+    position: absolute;
+    text-align: center;
+    width: 800px;
+    height: 50px;
+    margin-top: 70px;
+    padding-left: 50px;
+
+
+
+}
+
+.welcome-text h2 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(247, 242, 81);
+    text-transform: uppercase;
+    position: absolute;
+    letter-spacing: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.welcome-text a {
+    position: absolute;
+    text-align: center;
+    margin-top: 140px;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* margin-right: 0px; */
+    border: 4px solid;
+    border-radius: 50px;
+    
+  
+}
+
+.welcome-text a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(175, 247, 170);
+
+
+}
