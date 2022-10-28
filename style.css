@@ -122,7 +122,8 @@ s;
     border: 4px solid;
     border-radius: 50px;
     
-  
+    
+
 }
 
 .welcome-text a:hover {
@@ -130,4 +131,9 @@ s;
     background-color: rgb(175, 247, 170);
 
 
+}
+.btn{
+    justify-content: center;
+text-align: center;
+    padding: 2%;
 }
